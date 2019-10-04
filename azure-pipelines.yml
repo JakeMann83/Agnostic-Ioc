@@ -21,7 +21,6 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-steps:
 - task: NuGetCommand@2
   displayName: 'NuGet Install Nunit Test Adapters'
   inputs:
