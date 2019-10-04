@@ -39,3 +39,4 @@ steps:
     testSelector: 'testAssemblies'
     testAssemblyVer2: '**/*.UnitTests.dll'
     searchFolder: '$(System.DefaultWorkingDirectory)'
+    pathtoCustomTestAdapters: '$(System.DefaultWorkingDirectory)\TestAdapters'
